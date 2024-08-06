@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2009 tm2gtksw2(Alexandre da Silva)
+
+ This file was generated from a textmate theme named One Dark
+ with tm2gtksw2 tool. (Alexandre da Silva)
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+-->
+
+<style-scheme id="one" _name="One Light" version="1.0">
+  <author>draKKar1969</author>
+  <_description>Atom One syntax scheme</_description>
+
+  <metadata>
+    <property name="variant">light</property>
+    <property name="dark-variant">one-dark</property>
+  </metadata>
+
+  <!-- Named Colors -->
+  <color name="blue_1"                              value="#4078F2"/>
+  <color name="blue_2"                              value="#526FFF"/>
+  <color name="blue_3"                              value="#0184BC"/>
+  <color name="alpha_blue_1"                        value="#3584e433"/>
+  <color name="gray_1"                              value="#8888A9"/>
+  <color name="gray_2"                              value="#C0C0CD"/>
+  <color name="gray_3"                              value="#D5D6D7"/>
+  <color name="alpha_gray_1"                        value="#00000008"/>
+  <color name="alpha_gray_2"                        value="#0000000B"/>
+  <color name="alpha_gray_3"                        value="#000000CC"/>
+  <color name="alpha_gray_4"                        value="#CFCFCF80"/>
+  <color name="green_1"                             value="#50A14F"/>
+  <color name="orange_1"                            value="#986801"/>
+  <color name="orange_2"                            value="#E45649"/>
+  <color name="pink_1"                              value="#F2777A"/>
+  <color name="purple_1"                            value="#A626A4"/>
+  <color name="white_1"                             value="#FFFFFF"/>
+
+  <!-- SourceView Styles -->
+  <style name="background-pattern"                  background="alpha_gray_1"/>
+  <style name="bracket-match"                       background="alpha_gray_4"/>
+  <style name="bracket-mismatch"                    background="white_1" underline="error"/>
+  <style name="current-line"                        background="alpha_gray_1"/>
+  <style name="current-line-number"                 foreground="alpha_gray_3" bold="false"/>
+  <style name="cursor"                              foreground="blue_2"/>
+  <style name="draw-spaces"                         foreground="gray_3"/>
+  <style name="line-numbers"                        background="white_1" foreground="gray_2"/>
+  <style name="right-margin"                        background="alpha_gray_3"/>
+  <style name="search-match"                        background="alpha_blue_1"/>
+  <style name="selection"                           background="alpha_blue_1" foreground="alpha_gray_3"/>
+  <style name="text"                                foreground="alpha_gray_3" background="white_1"/>
+
+  <!-- Default Styles -->
+  <style name="def:base-n-integer"                  foreground="orange_1"/>
+  <style name="def:boolean"                         foreground="orange_1"/>
+  <style name="def:builtin"                         foreground="orange_1"/>
+  <style name="def:character"                       foreground="orange_1"/>
+  <style name="def:comment"                         foreground="gray_1" italic="true"/>
+  <style name="def:complex"                         foreground="orange_1"/>
+  <style name="def:constant"                        foreground="orange_1"/>
+  <style name="def:decimal"                         foreground="orange_1"/>
+  <style name="def:deletion"                        strikethrough="true"/>
+  <style name="def:doc-comment"                     foreground="gray_1" italic="true"/>
+  <style name="def:doc-comment-element"             foreground="gray_1" italic="true"/>
+  <style name="def:emphasis"                        italic="true"/>
+  <style name="def:error"                           foreground="white_1" background="pink_1"/>
+  <style name="def:floating-point"                  foreground="orange_1"/>
+  <style name="def:function"                        foreground="blue_1"/>
+  <style name="def:heading"                         foreground="orange_2" bold="true"/>
+  <style name="def:identifier"                      foreground="orange_2"/>
+  <style name="def:inline-code"                     background="alpha_gray_2" foreground="blue_3"/>
+  <style name="def:keyword"                         foreground="purple_1"/>
+  <style name="def:link-destination"                foreground="purple_1"/>
+  <style name="def:link-text"                       foreground="blue_1"/>
+  <style name="def:list-marker"                     bold="true"/>
+  <style name="def:note"                            foreground="gray_1" italic="true"/>
+  <style name="def:number"                          foreground="orange_1"/>
+  <style name="def:operator"                        foreground="purple_1"/>
+  <style name="def:preformatted-section"            foreground="blue_3"/>
+  <style name="def:preprocessor"                    foreground="orange_1"/>
+  <style name="def:reserved"                        foreground="purple_1"/>
+  <style name="def:shebang"                         foreground="gray_1" italic="true"/>
+  <style name="def:special-char"                    foreground="orange_1"/>
+  <style name="def:special-constant"                foreground="orange_1"/>
+  <style name="def:statement"                       foreground="purple_1"/>
+  <style name="def:string"                          foreground="green_1"/>
+  <style name="def:strong-emphasis"                 bold="true"/>
+  <style name="def:type"                            foreground="orange_2"/>
+  <style name="def:underlined"                      underline="single"/>
+
+  <!-- Other Styles -->
+  <style name="css:at-rules"                        foreground="purple_1"/>
+  <style name="css:color"                           foreground="alpha_gray_3"/>
+  <style name="css:keyword"                         foreground="orange_2"/>
+  <style name="html:dtd"                            foreground="green_1"/>
+  <style name="html:tag"                            foreground="orange_2"/>
+  <style name="js:function"                         foreground="blue_1"/>
+  <style name="perl:builtin"                        foreground="blue_1"/>
+  <style name="perl:include-statement"              foreground="purple_1"/>
+  <style name="perl:special-variable"               foreground="orange_1"/>
+  <style name="perl:variable"                       foreground="orange_2"/>
+  <style name="php:string"                          foreground="green_1"/>
+  <style name="python:builtin-constant"             foreground="purple_1"/>
+  <style name="python:builtin-function"             foreground="blue_1"/>
+  <style name="python:module-handler"               foreground="purple_1"/>
+  <style name="python:special-variable"             foreground="purple_1"/>
+  <style name="ruby:attribute-definition"           foreground="purple_1"/>
+  <style name="ruby:builtin"                        foreground="orange_2"/>
+  <style name="ruby:class-variable"                 foreground="orange_2"/>
+  <style name="ruby:constant"                       foreground="orange_2"/>
+  <style name="ruby:global-variable"                foreground="blue_1"/>
+  <style name="ruby:instance-variable"              foreground="orange_2"/>
+  <style name="ruby:module-handler"                 foreground="purple_1"/>
+  <style name="ruby:predefined-variable"            foreground="orange_1"/>
+  <style name="ruby:regex"                          foreground="orange_2"/>
+  <style name="ruby:special-variable"               foreground="purple_1"/>
+  <style name="ruby:symbol"                         foreground="alpha_gray_3"/>
+  <style name="rubyonrails:attribute-definition"    foreground="purple_1"/>
+  <style name="rubyonrails:block-parameter"         foreground="orange_1"/>
+  <style name="rubyonrails:builtin"                 foreground="orange_2"/>
+  <style name="rubyonrails:class-inherit"           foreground="green_1"/>
+  <style name="rubyonrails:class-name"              foreground="orange_2"/>
+  <style name="rubyonrails:class-variable"          foreground="orange_2"/>
+  <style name="rubyonrails:complex-interpolation"   foreground="orange_1"/>
+  <style name="rubyonrails:constant"                foreground="orange_2"/>
+  <style name="rubyonrails:global-variable"         foreground="blue_1"/>
+  <style name="rubyonrails:instance-variable"       foreground="orange_2"/>
+  <style name="rubyonrails:module-handler"          foreground="purple_1"/>
+  <style name="rubyonrails:module-name"             foreground="orange_2"/>
+  <style name="rubyonrails:predefined-variable"     foreground="orange_1"/>
+  <style name="rubyonrails:rails"                   foreground="orange_2"/>
+  <style name="rubyonrails:regex"                   foreground="orange_2"/>
+  <style name="rubyonrails:simple-interpolation"    foreground="orange_1"/>
+  <style name="rubyonrails:special-variable"        foreground="purple_1"/>
+  <style name="rubyonrails:symbol"                  foreground="alpha_gray_3"/>
+  <style name="xml:attribute-name"                  foreground="orange_2"/>
+  <style name="xml:doctype"                         foreground="orange_2"/>
+  <style name="xml:element-name"                    foreground="orange_2"/>
+  <style name="xml:namespace"                       foreground="orange_2"/>
+  <style name="xml:tag"                             foreground="orange_2"/>
+</style-scheme>

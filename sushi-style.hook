@@ -1,0 +1,10 @@
+[Trigger]
+Operation=Install
+Operation=Upgrade
+Type=Package
+Target=sushi
+
+[Action]
+Description=Updating Sushi style...
+When=PostTransaction
+Exec=/usr/bin/bash -c "cp /usr/share/gtksourceview-4/styles/builder-dark.style-scheme.xml /usr/share/sushi/gtksourceview-4/styles"
