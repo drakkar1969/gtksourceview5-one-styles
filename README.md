@@ -1,1 +1,2 @@
-# sourceview-one-styles
+# Sourceview One Styles
+One and One Dark syntax highlighting styles for GtkSourceView
