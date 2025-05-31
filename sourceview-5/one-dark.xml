@@ -52,10 +52,10 @@
   <style name="current-line-number"                 foreground="white_1" bold="false"/>
   <style name="cursor"                              foreground="blue_2"/>
   <style name="draw-spaces"                         foreground="#747369"/>
-  <style name="line-numbers"                        foreground="#abb2bf" background="#2e343d"/>
+  <style name="line-numbers"                        foreground="#576074"/>
   <style name="search-match"                        background="alpha_blue_1"/>
   <style name="selection"                           background="alpha_blue_1" foreground="white_1"/>
-  <style name="text"                                foreground="white_1" background="black_1"/>
+  <style name="text"                                foreground="white_1"/>
 
   <!-- Default Styles -->
   <style name="def:base-n-integer"                  foreground="orange_1"/>
