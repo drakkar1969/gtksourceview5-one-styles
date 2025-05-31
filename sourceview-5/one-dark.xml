@@ -49,12 +49,12 @@
   <style name="bracket-match"                       background="#F6F5F420"/>
   <style name="bracket-mismatch"                    background="#F6F5F420" underline="error"/>
   <style name="current-line"                        background="#3584E410"/>
-  <style name="current-line-number"                 foreground="#F6F5F4" bold="false" background="00000000"/>
+  <style name="current-line-number"                 foreground="#F6F5F4" bold="false" background="#00000000"/>
   <style name="cursor"                              foreground="#528BFF"/>
   <style name="draw-spaces"                         foreground="#F6F5F420"/>
-  <style name="line-numbers"                        foreground="#576074" background="00000000"/>
+  <style name="line-numbers"                        foreground="#576074" background="#00000000"/>
   <style name="line-numbers-border"                 background="#00000000"/>
-  <style name="right-margin"                        foreground="F6F5F420" background="00000000"/>
+  <style name="right-margin"                        foreground="#F6F5F420" background="#00000000"/>
   <style name="search-match"                        background="#3584E430"/>
   <style name="selection"                           background="#3584E430" foreground="#F6F5F4"/>
   <style name="text"                                foreground="#F6F5F4"/>
