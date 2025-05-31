@@ -31,13 +31,8 @@
   </metadata>
 
   <!-- Named Colors -->
-  <color name="black_1"                             value="#282C34"/>
   <color name="blue_1"                              value="#61AFEF"/>
-  <color name="blue_2"                              value="#528BFF"/>
-  <color name="alpha_blue_1"                        value="#3584e433"/>
   <color name="gray_1"                              value="#5C6370"/>
-  <color name="alpha_gray_1"                        value="#FFFFFF08"/>
-  <color name="alpha_gray_4"                        value="#282C3480"/>
   <color name="green_1"                             value="#98C379"/>
   <color name="orange_1"                            value="#D19A66"/>
   <color name="orange_2"                            value="#E06C75"/>
@@ -52,7 +47,7 @@
   <style name="current-line-number"                 foreground="#F6F5F4" bold="false" background="#00000000"/>
   <style name="cursor"                              foreground="#528BFF"/>
   <style name="draw-spaces"                         foreground="#F6F5F420"/>
-  <style name="line-numbers"                        foreground="#576074" background="#00000000"/>
+  <style name="line-numbers"                        foreground="#576074"/>
   <style name="line-numbers-border"                 background="#00000000"/>
   <style name="right-margin"                        foreground="#F6F5F420" background="#00000000"/>
   <style name="search-match"                        background="#3584E430"/>
